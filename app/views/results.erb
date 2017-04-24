@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Results</title>
+  <!-- links to CSS stylesheet in the public directory -->
+  <link rel="stylesheet" href="/css/index.css" >
+   <style>
+  html, body {
+
+    font-family: 'Abel', sans-serif;
+    margin:0;
+    padding:0;
+    height:100%;
+}
+
+.results-page {
+    background: url("https://images5.alphacoders.com/473/thumb-1920-473154.jpg"); no-repeat center center fixed;
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  color: white;
+    margin: 0%;
+    padding-top: 20vmax;
+    font-size: 5vmax;
+}
+
+a {
+  color: white;
+  padding: 14px 25px;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+  background-color: red;
+  border-radius:4px;
+}
+
+
+
+
+</style>
+
+  
+</head>
+<body> 
+
+  <div class="results-page">
+    
+    <div class= "Results">
+    <%= @game1.game %>
+    </div>
+    <div class="Link">
+    <a href = "/">Play again</a>
+    </div>
+  </div>
+
+</body>
+</html>

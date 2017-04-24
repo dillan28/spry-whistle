@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lets play rock, paper, scissors</title>
+  <!-- links to CSS stylesheet in the public directory -->
+  <link rel="stylesheet" href="/css/index.css" >
+  <style>
+  html, body {
+
+    font-family: 'Abel', sans-serif;
+    margin:0;
+    padding:0;
+    height:100%;
+}
+
+.homepage {
+    background: url("https://images5.alphacoders.com/473/thumb-1920-473154.jpg"); no-repeat center center fixed;
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  color: white;
+}
+
+.homepage-h1 {
+    margin: 0%;
+    padding-top: 20vmax;
+    font-size: 5vmax;
+}
+</style>
+
+</head>
+<body> 
+
+  <div class="homepage">
+    
+  <div class="title">  
+    <h1 class="homepage-h1">Rock paper scissors</h1>
+  </div>
+  
+  <div class="Text">  
+    <p>Type rock, paper, or scissors to play</p>
+  </div>  
+    
+  <div class="input">  
+    <form method="POST" action="/results">
+      <input type="text" name="choice">
+      <input type="submit">
+    </form>
+    </div>
+  </div>
+
+</body>
+</html>
